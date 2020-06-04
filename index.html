@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!--Character encoding-->
+        <meta charset="utf-8"> 
+
+        <!--Title tag -->
+        <title>BLue Marble</title>
+
+        <!--meta description -->
+        <meta name="description" content="This is a poem I made">
+
+        <!--mobile friendly viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--link to w3 stylesheet and css animate-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="CSS/animate.css">
+
+        <!--Link to my sTyLE-->
+        <link rel="stylesheet" href="CSS/myStyle.css">
+
+        <!--link to Font-->
+        <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Satisfy&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body class="w3-blue">
+
+        <!--Slide #1-->
+        <section class="mySlides">
+            <video autoplay muted loop class="fs-video">
+                <source src="videos/Turning-Earth.mp4" type="video/mp4">
+            </video>
+             <div class="w3-cell-row">
+                 <div class="w3-container w3-blue w3-cell w3-mobile w3-display-top">
+                     <h1 class="animated zoomIn">Blue Marble </h1>
+                 </div> 
+            </div>
+            
+         </section>
+
+         <!--Slide #2-->
+        <section class="mySlides">
+            <!-- The video -->
+            <video autoplay muted loop class="fs-video">
+                <source src="videos/purple-sky.mp4" type="video/mp4">
+            </video>
+            <div class="w3-cell-row">
+                <div class="w3-container w3-blue w3-cell w3-mobile w3-display-top">
+                    <h1 style="float:right"class="animated slideInLeft">Swirling skies </h1>
+                </div> 
+           </div>
+        </section>
+
+        <!--Slide #3-->
+        <section class="mySlides">
+            <video autoplay muted loop class="fs-video">
+                <source src="videos/flip.mp4" type="video/mp4">
+            </video>
+            <div class="w3-cell-row">
+                <div class="w3-container w3-blue w3-cell w3-mobile w3-display-top-right">
+                    <h1 class="animated flipInX">Is it up or down? </h1>
+                </div> 
+           </div>
+        </section>
+
+         <!--Slide #4-->
+         <section class="mySlides fs img-2">
+            <div class="w3-cell-row">
+                <div class="w3-container w3-blue w3-cell w3-mobile w3-display-top">
+                    <h1 class="animated zoomIn">Flat or round? </h1>
+                </div> 
+           </div>
+        </section>
+
+         <!--Slide #5-->
+         <section class="mySlides">
+            <video autoplay muted loop class="fs-video">
+                <source src="videos/explore.mp4" type="video/mp4">
+            </video>
+            <div class="w3-cell-row">
+                <div class="w3-container w3-blue w3-cell w3-mobile w3-display-top">
+                    <h1 class="animated zoomIn">It looks so unknown </h1>
+                </div> 
+           </div>
+        </section>
+
+         <!--Slide #6-->
+         <section class="mySlides">
+            <video autoplay muted loop class="fs-video">
+                <source src="videos/homeland.mp4" type="video/mp4">
+            </video>
+            <div class="w3-cell-row">
+                <div class="w3-container w3-blue w3-cell w3-mobile w3-display-top">
+                    <h1 class="animated slideInRight">But it is my home </h1>
+                </div> 
+           </div>
+        </section>
+
+         <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+         <!--music Player-->
+         <figure class="  w3-container  w3-bottom ">
+            <figcaption style="font-size:26px; color:gray"> Deserts by Bobby Renz </figcaption>
+            <audio style="width:240px; height:40px"controls src="/music/Deserts.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+        </figure>
+ 
+         <script src="js/Slides.js"></script>
+
+
+    </body>
+
+
+</html>
